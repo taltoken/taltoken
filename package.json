@@ -8,24 +8,28 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taltoken/taltoken-website.git"
+    "url": "git+https://github.com/taltoken/taltoken.git"
   },
   "bugs": {
-    "url": "https://github.com/taltoken/taltoken-website/issues"
+    "url": "https://github.com/taltoken/taltoken/issues"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export",
+    "predeploy": "next build && next export && touch out/.nojekyll",
     "format": "npx prettier --write \"./**/*.{js,jsx,ts,json}\"",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -t true -b gh-pages -d out"
   },
   "dependencies": {
     "next": "^10.0.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-query": "^3.12.2"
+    "react-query": "^3.12.2",
+    "@mdx-js/loader": "^1.5.3",
+    "@next/mdx": "^9.1.6",
+    "@zeit/next-sass": "^1.0.1"
   },
   "devDependencies": {
     "@tailwindcss/ui": "^0.7.2",

@@ -1,8 +1,8 @@
+  
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
-  images: {
-    domains: ["github.io"],
-  },
-  async redirects() {
-    return [];
-  },
+  // Use the CDN in production and localhost for development.
+  assetPrefix: isProd ? '/' : '',
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx']
 };
