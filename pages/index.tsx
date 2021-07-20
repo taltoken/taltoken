@@ -16,7 +16,7 @@ export default Home;
 const FAQ = () => (
   <TitledContent title="Frequently asked questions" maxwidth="sm:max-w-3xl">
     <FAQContent title="How can I help the Taral project?">
-      G;ad you asked. Taral project is developed by open source developers. 
+      Glad you asked. Taral project is developed by open source developers. 
       Please contact us on Discord or Telegram if you want to help the project.
     </FAQContent>
     <FAQContent title="Is there a token?">
