@@ -1,164 +1,264 @@
-self["webpackHotUpdate_N_E"]("pages/support",{
-
-/***/ "./pages/support.tsx":
-/*!***************************!*\
+self["webpackHotUpdate_N_E"]("pages/support", {
+  /***/ "./pages/support.tsx":
+    /*!***************************!*\
   !*** ./pages/support.tsx ***!
   \***************************/
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+    /***/ function (module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ =
+        __webpack_require__(
+          /*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js"
+        );
+      /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default =
+        /*#__PURE__*/ __webpack_require__.n(
+          react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__
+        );
+      /* harmony import */ var _components_TitledContext__WEBPACK_IMPORTED_MODULE_1__ =
+        __webpack_require__(
+          /*! ../components/TitledContext */ "./components/TitledContext.tsx"
+        );
+      /* harmony import */ var _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__ =
+        __webpack_require__(
+          /*! ../components/StyledLinks */ "./components/StyledLinks.tsx"
+        );
+      /* harmony import */ var _components_FAQContent__WEBPACK_IMPORTED_MODULE_3__ =
+        __webpack_require__(
+          /*! ../components/FAQContent */ "./components/FAQContent.tsx"
+        );
+      /* harmony import */ var _common_constants__WEBPACK_IMPORTED_MODULE_4__ =
+        __webpack_require__(/*! ../common/constants */ "./common/constants.ts");
+      /* module decorator */ module = __webpack_require__.hmd(module);
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_TitledContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TitledContext */ "./components/TitledContext.tsx");
-/* harmony import */ var _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/StyledLinks */ "./components/StyledLinks.tsx");
-/* harmony import */ var _components_FAQContent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/FAQContent */ "./components/FAQContent.tsx");
-/* harmony import */ var _common_constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common/constants */ "./common/constants.ts");
-/* module decorator */ module = __webpack_require__.hmd(module);
+      var _jsxFileName = "C:\\biz\\taral-website\\pages\\support.tsx",
+        _this = undefined;
 
+      var Support = function Support() {
+        return /*#__PURE__*/ (0,
+        react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+          "main",
+          {
+            children: /*#__PURE__*/ (0,
+            react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+              SupportContent,
+              {},
+              void 0,
+              false,
+              {
+                fileName: _jsxFileName,
+                lineNumber: 9,
+                columnNumber: 9,
+              },
+              _this
+            ),
+          },
+          void 0,
+          false,
+          {
+            fileName: _jsxFileName,
+            lineNumber: 8,
+            columnNumber: 5,
+          },
+          _this
+        );
+      };
 
-var _jsxFileName = "C:\\biz\\taral-website\\pages\\support.tsx",
-    _this = undefined;
+      _c = Support;
+      /* harmony default export */ __webpack_exports__["default"] = Support;
 
+      var SupportContent = function SupportContent() {
+        return /*#__PURE__*/ (0,
+        react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+          _components_TitledContext__WEBPACK_IMPORTED_MODULE_1__.default,
+          {
+            title: "Taral support",
+            maxwidth: "sm:max-w-3xl",
+            children: [
+              /*#__PURE__*/ (0,
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+                _components_FAQContent__WEBPACK_IMPORTED_MODULE_3__.default,
+                {
+                  title: "I am a software developer",
+                  children: [
+                    "You are welcome to join in our",
+                    " ",
+                    /*#__PURE__*/ (0,
+                    react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+                      _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.StyledLink,
+                      {
+                        type: _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__
+                          .Styled.PageLink,
+                        external: true,
+                        href: _common_constants__WEBPACK_IMPORTED_MODULE_4__.DISCORD_URL,
+                        children: "Discord",
+                      },
+                      void 0,
+                      false,
+                      {
+                        fileName: _jsxFileName,
+                        lineNumber: 18,
+                        columnNumber: 13,
+                      },
+                      _this
+                    ),
+                    ". Also you can ask open questions on",
+                    " ",
+                    /*#__PURE__*/ (0,
+                    react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+                      _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.StyledLink,
+                      {
+                        type: _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__
+                          .Styled.PageLink,
+                        external: true,
+                        href: _common_constants__WEBPACK_IMPORTED_MODULE_4__.TELEGRAM_URL,
+                        children: "our Telegram group",
+                      },
+                      void 0,
+                      false,
+                      {
+                        fileName: _jsxFileName,
+                        lineNumber: 22,
+                        columnNumber: 13,
+                      },
+                      _this
+                    ),
+                  ],
+                },
+                void 0,
+                true,
+                {
+                  fileName: _jsxFileName,
+                  lineNumber: 16,
+                  columnNumber: 9,
+                },
+                _this
+              ),
+              /*#__PURE__*/ (0,
+              react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+                _components_FAQContent__WEBPACK_IMPORTED_MODULE_3__.default,
+                {
+                  title: "Where can I reach you?",
+                  children: [
+                    "We can be reached at",
+                    /*#__PURE__*/ (0,
+                    react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+                      _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.StyledLink,
+                      {
+                        type: _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__
+                          .Styled.PageLink,
+                        external: true,
+                        href: _common_constants__WEBPACK_IMPORTED_MODULE_4__.DISCORD_URL,
+                        children: "Discord",
+                      },
+                      void 0,
+                      false,
+                      {
+                        fileName: _jsxFileName,
+                        lineNumber: 28,
+                        columnNumber: 13,
+                      },
+                      _this
+                    ),
+                  ],
+                },
+                void 0,
+                true,
+                {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 9,
+                },
+                _this
+              ),
+            ],
+          },
+          void 0,
+          true,
+          {
+            fileName: _jsxFileName,
+            lineNumber: 15,
+            columnNumber: 5,
+          },
+          _this
+        );
+      };
 
+      _c2 = SupportContent;
 
+      var _c, _c2;
 
+      $RefreshReg$(_c, "Support");
+      $RefreshReg$(_c2, "SupportContent");
 
-
-var Support = function Support() {
-  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("main", {
-    children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(SupportContent, {}, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }, _this)
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 8,
-    columnNumber: 5
-  }, _this);
-};
-
-_c = Support;
-/* harmony default export */ __webpack_exports__["default"] = (Support);
-
-var SupportContent = function SupportContent() {
-  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_TitledContext__WEBPACK_IMPORTED_MODULE_1__.default, {
-    title: "Taral support",
-    maxwidth: "sm:max-w-3xl",
-    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_FAQContent__WEBPACK_IMPORTED_MODULE_3__.default, {
-      title: "I am a software developer",
-      children: ["You are welcome to join in our", " ", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.StyledLink, {
-        type: _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.Styled.PageLink,
-        external: true,
-        href: _common_constants__WEBPACK_IMPORTED_MODULE_4__.DISCORD_URL,
-        children: "Discord"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 13
-      }, _this), ". Also you can ask open questions on", " ", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.StyledLink, {
-        type: _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.Styled.PageLink,
-        external: true,
-        href: _common_constants__WEBPACK_IMPORTED_MODULE_4__.TELEGRAM_URL,
-        children: "our Telegram group"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 13
-      }, _this)]
-    }, void 0, true, {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 9
-    }, _this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_FAQContent__WEBPACK_IMPORTED_MODULE_3__.default, {
-      title: "Where can I reach you?",
-      children: ["We can be reached at", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.StyledLink, {
-        type: _components_StyledLinks__WEBPACK_IMPORTED_MODULE_2__.Styled.PageLink,
-        external: true,
-        href: _common_constants__WEBPACK_IMPORTED_MODULE_4__.DISCORD_URL,
-        children: "Discord"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 28,
-        columnNumber: 13
-      }, _this)]
-    }, void 0, true, {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 9
-    }, _this)]
-  }, void 0, true, {
-    fileName: _jsxFileName,
-    lineNumber: 15,
-    columnNumber: 5
-  }, _this);
-};
-
-_c2 = SupportContent;
-
-var _c, _c2;
-
-$RefreshReg$(_c, "Support");
-$RefreshReg$(_c2, "SupportContent");
-
-;
-    var _a, _b;
-    // Legacy CSS implementations will `eval` browser code in a Node.js context
-    // to extract CSS. For backwards compatibility, we need to check we're in a
-    // browser context before continuing.
-    if (typeof self !== 'undefined' &&
+      var _a, _b;
+      // Legacy CSS implementations will `eval` browser code in a Node.js context
+      // to extract CSS. For backwards compatibility, we need to check we're in a
+      // browser context before continuing.
+      if (
+        typeof self !== "undefined" &&
         // AMP / No-JS mode does not inject these helpers:
-        '$RefreshHelpers$' in self) {
+        "$RefreshHelpers$" in self
+      ) {
         var currentExports = module.__proto__.exports;
-        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        var prevExports =
+          (_b =
+            (_a = module.hot.data) === null || _a === void 0
+              ? void 0
+              : _a.prevExports) !== null && _b !== void 0
+            ? _b
+            : null;
         // This cannot happen in MainTemplate because the exports mismatch between
         // templating and execution.
-        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);
+        self.$RefreshHelpers$.registerExportsForReactRefresh(
+          currentExports,
+          module.id
+        );
         // A module can be accepted automatically based on its exports, e.g. when
         // it is a Refresh Boundary.
         if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {
-            // Save the previous exports on update so we can compare the boundary
-            // signatures.
-            module.hot.dispose(function (data) {
-                data.prevExports = currentExports;
-            });
-            // Unconditionally accept an update to this module, we'll check if it's
-            // still a Refresh Boundary later.
-            module.hot.accept();
-            // This field is set when the previous version of this module was a
-            // Refresh Boundary, letting us know we need to check for invalidation or
-            // enqueue an update.
-            if (prevExports !== null) {
-                // A boundary can become ineligible if its exports are incompatible
-                // with the previous exports.
-                //
-                // For example, if you add/remove/change exports, we'll want to
-                // re-execute the importing modules, and force those components to
-                // re-render. Similarly, if you convert a class component to a
-                // function, we want to invalidate the boundary.
-                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {
-                    module.hot.invalidate();
-                }
-                else {
-                    self.$RefreshHelpers$.scheduleUpdate();
-                }
+          // Save the previous exports on update so we can compare the boundary
+          // signatures.
+          module.hot.dispose(function (data) {
+            data.prevExports = currentExports;
+          });
+          // Unconditionally accept an update to this module, we'll check if it's
+          // still a Refresh Boundary later.
+          module.hot.accept();
+          // This field is set when the previous version of this module was a
+          // Refresh Boundary, letting us know we need to check for invalidation or
+          // enqueue an update.
+          if (prevExports !== null) {
+            // A boundary can become ineligible if its exports are incompatible
+            // with the previous exports.
+            //
+            // For example, if you add/remove/change exports, we'll want to
+            // re-execute the importing modules, and force those components to
+            // re-render. Similarly, if you convert a class component to a
+            // function, we want to invalidate the boundary.
+            if (
+              self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(
+                prevExports,
+                currentExports
+              )
+            ) {
+              module.hot.invalidate();
+            } else {
+              self.$RefreshHelpers$.scheduleUpdate();
             }
+          }
+        } else {
+          // Since we just executed the code for the module, it's possible that the
+          // new exports made it ineligible for being a boundary.
+          // We only care about the case when we were _previously_ a boundary,
+          // because we already accepted this update (accidental side effect).
+          var isNoLongerABoundary = prevExports !== null;
+          if (isNoLongerABoundary) {
+            module.hot.invalidate();
+          }
         }
-        else {
-            // Since we just executed the code for the module, it's possible that the
-            // new exports made it ineligible for being a boundary.
-            // We only care about the case when we were _previously_ a boundary,
-            // because we already accepted this update (accidental side effect).
-            var isNoLongerABoundary = prevExports !== null;
-            if (isNoLongerABoundary) {
-                module.hot.invalidate();
-            }
-        }
-    }
+      }
 
-
-/***/ })
-
+      /***/
+    },
 });
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvc3VwcG9ydC50c3giXSwibmFtZXMiOlsiU3VwcG9ydCIsIlN1cHBvcnRDb250ZW50IiwiU3R5bGVkIiwiRElTQ09SRF9VUkwiLCJURUxFR1JBTV9VUkwiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFFQTs7QUFFQSxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVTtBQUFBLHNCQUNaO0FBQUEsMkJBQ0ksOERBQUMsY0FBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREo7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQURZO0FBQUEsQ0FBaEI7O0tBQU1BLE87QUFLTiwrREFBZUEsT0FBZjs7QUFFQSxJQUFNQyxjQUFjLEdBQUcsU0FBakJBLGNBQWlCO0FBQUEsc0JBQ25CLDhEQUFDLDhEQUFEO0FBQWUsU0FBSyxFQUFDLGVBQXJCO0FBQXFDLFlBQVEsRUFBQyxjQUE5QztBQUFBLDRCQUNJLDhEQUFDLDJEQUFEO0FBQVksV0FBSyxFQUFDLDJCQUFsQjtBQUFBLG1EQUNtQyxHQURuQyxlQUVJLDhEQUFDLCtEQUFEO0FBQVksWUFBSSxFQUFFQyxvRUFBbEI7QUFBbUMsZ0JBQVEsTUFBM0M7QUFBNEMsWUFBSSxFQUFFQywwREFBbEQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZUFGSiwwQ0FLeUMsR0FMekMsZUFNSSw4REFBQywrREFBRDtBQUFZLFlBQUksRUFBRUQsb0VBQWxCO0FBQW1DLGdCQUFRLE1BQTNDO0FBQTRDLFlBQUksRUFBRUUsMkRBQWxEO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBTko7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGFBREosZUFXSSw4REFBQywyREFBRDtBQUFZLFdBQUssRUFBQyx3QkFBbEI7QUFBQSxzREFFSSw4REFBQywrREFBRDtBQUFZLFlBQUksRUFBRUYsb0VBQWxCO0FBQW1DLGdCQUFRLE1BQTNDO0FBQTRDLFlBQUksRUFBRUMsMERBQWxEO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBRko7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGFBWEo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFdBRG1CO0FBQUEsQ0FBdkI7O01BQU1GLGMiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvc3VwcG9ydC5iMjg5OGYzMGFlMjZhODE0ZWQ4MC5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFRpdGxlZENvbnRlbnQgZnJvbSBcIi4uL2NvbXBvbmVudHMvVGl0bGVkQ29udGV4dFwiO1xyXG5pbXBvcnQgeyBTdHlsZWQsIFN0eWxlZExpbmsgfSBmcm9tIFwiLi4vY29tcG9uZW50cy9TdHlsZWRMaW5rc1wiO1xyXG5pbXBvcnQgRkFRQ29udGVudCBmcm9tIFwiLi4vY29tcG9uZW50cy9GQVFDb250ZW50XCI7XHJcblxyXG5pbXBvcnQgeyBESVNDT1JEX1VSTCwgVEVMRUdSQU1fVVJMIH0gZnJvbSBcIi4uL2NvbW1vbi9jb25zdGFudHNcIjtcclxuXHJcbmNvbnN0IFN1cHBvcnQgPSAoKSA9PiAoXHJcbiAgICA8bWFpbj5cclxuICAgICAgICA8U3VwcG9ydENvbnRlbnQgLz5cclxuICAgIDwvbWFpbj5cclxuKTtcclxuZXhwb3J0IGRlZmF1bHQgU3VwcG9ydDtcclxuXHJcbmNvbnN0IFN1cHBvcnRDb250ZW50ID0gKCkgPT4gKFxyXG4gICAgPFRpdGxlZENvbnRlbnQgdGl0bGU9XCJUYXJhbCBzdXBwb3J0XCIgbWF4d2lkdGg9XCJzbTptYXgtdy0zeGxcIj5cclxuICAgICAgICA8RkFRQ29udGVudCB0aXRsZT1cIkkgYW0gYSBzb2Z0d2FyZSBkZXZlbG9wZXJcIj5cclxuICAgICAgICAgICAgWW91IGFyZSB3ZWxjb21lIHRvIGpvaW4gaW4gb3Vye1wiIFwifVxyXG4gICAgICAgICAgICA8U3R5bGVkTGluayB0eXBlPXtTdHlsZWQuUGFnZUxpbmt9IGV4dGVybmFsIGhyZWY9e0RJU0NPUkRfVVJMfT5cclxuICAgICAgICAgICAgICAgIERpc2NvcmRcclxuICAgICAgICAgICAgPC9TdHlsZWRMaW5rPlxyXG4gICAgICAgICAgICAuIEFsc28geW91IGNhbiBhc2sgb3BlbiBxdWVzdGlvbnMgb257XCIgXCJ9XHJcbiAgICAgICAgICAgIDxTdHlsZWRMaW5rIHR5cGU9e1N0eWxlZC5QYWdlTGlua30gZXh0ZXJuYWwgaHJlZj17VEVMRUdSQU1fVVJMfT5cclxuICAgICAgICAgICAgICAgIG91ciBUZWxlZ3JhbSBncm91cFxyXG4gICAgICAgICAgICA8L1N0eWxlZExpbms+XHJcbiAgICAgICAgPC9GQVFDb250ZW50PlxyXG4gICAgICAgIDxGQVFDb250ZW50IHRpdGxlPVwiV2hlcmUgY2FuIEkgcmVhY2ggeW91P1wiPlxyXG4gICAgICAgICAgICBXZSBjYW4gYmUgcmVhY2hlZCBhdFxyXG4gICAgICAgICAgICA8U3R5bGVkTGluayB0eXBlPXtTdHlsZWQuUGFnZUxpbmt9IGV4dGVybmFsIGhyZWY9e0RJU0NPUkRfVVJMfT5cclxuICAgICAgICAgICAgICAgIERpc2NvcmRcclxuICAgICAgICAgICAgPC9TdHlsZWRMaW5rPlxyXG4gICAgICAgIDwvRkFRQ29udGVudD5cclxuICAgIDwvVGl0bGVkQ29udGVudD5cclxuKTsiXSwic291cmNlUm9vdCI6IiJ9
