@@ -8,7 +8,7 @@ import { Styled, StyledLink } from "../components/StyledLinks";
 
 const Header = () => {
   const title = `Taral`;
-  const url = `https://github.io/taral`;
+  const url = `https://taltoken.github.io`;
   const description = `TARAL is eliminating the friction, costs and time normally associated with trade finance.`;
   const keywords = `taral, stacks, cryptocurrency, blockchain, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp`;
   const twitterUsername = `@taral`;
@@ -27,11 +27,9 @@ const Header = () => {
         <meta name="twitter:site" content={twitterUsername} />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:img:src" content={`${url}/social-card.png`} />
         <meta name="og:title" content={title} />
         <meta name="og:type" content="website" />
         <meta name="og:url" content={url} />
-        <meta name="og:image" content={`${url}/social-card.png`} />
         <meta name="og:description" content={description} />
         <meta name="og:site_name" content={title} />
         <meta name="fb:admins" content={facebookId} />
