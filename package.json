@@ -18,7 +18,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "format": "prettier --write 'src/**/*.js'",
+    "format": "npx prettier --write \"./**/*.{js,jsx,ts,json}\"",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
