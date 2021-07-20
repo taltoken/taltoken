@@ -1,6 +1,6 @@
 # Taral website
 
-[See live github.io/taltoken](github.io/taltoken)
+[See live taraldefi.github.io](taraldefi.github.io)
 
 # Local development
 
