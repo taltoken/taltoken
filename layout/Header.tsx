@@ -46,7 +46,7 @@ const Header = () => {
             <Link href="/">
               <img
                 className="cursor-pointer object-fit"
-                src="logo.png"
+                src="logo.svg"
                 alt="logo"
               />
             </Link>
