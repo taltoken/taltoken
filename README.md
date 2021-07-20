@@ -1,6 +1,6 @@
 # Taral website
 
-[See live taraldefi.github.io](taraldefi.github.io)
+[See live taraldefi.github.io](https://taraldefi.github.io)
 
 # Local development
 
