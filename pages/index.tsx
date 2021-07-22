@@ -41,9 +41,9 @@ const WhatItIs = () => (
   <div className="flex sm:flex-row sm:justify-center">
     <div className="flex flex-col mx-6 mt-16 font-thin text-gray-700 sm:flex-row sm:mx-8 sm:space-x-16 sm:max-w-5xl">
       <div className="sm:w-1/2">
-        <h2 className="text-3xl">What is Is TALAR?</h2>
+        <h2 className="text-3xl">What is Is taral?</h2>
         <p className="mt-6 text-lg leading-6">
-          Talar is an upcoming Stacks blockchain based platform aiming to reduce the friction, costs and time normally associated with trade finance.
+          Taral is an upcoming Stacks blockchain based platform aiming to reduce the friction, costs and time normally associated with trade finance.
         </p>
       </div>
       <div className="mt-16 sm:w-1/2 sm:mt-0">

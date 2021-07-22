@@ -8,10 +8,10 @@ import { Styled, StyledLink } from "../components/StyledLinks";
 
 const Header = () => {
   const title = `Taral`;
-  const url = `https://taltoken.github.io`;
+  const url = `https://taraldefi.github.io/`;
   const description = `TARAL is eliminating the friction, costs and time normally associated with trade finance.`;
   const keywords = `taral, stacks, cryptocurrency, blockchain, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp`;
-  const twitterUsername = `@taral`;
+  const twitterUsername = `@defitaral`;
   const facebookId = "<TARAL_FACEBOOK_ID>";
 
   return (
