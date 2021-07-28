@@ -63,7 +63,7 @@ const WhatItIs = () => (
         By moving trade finance transactions on-chain, we unlock DeFi for
         <StyledLink type={Styled.PageLink} href='#'>
         real-world international trade
-        </StyledLink>, a $15tn global market.
+        </StyledLink>, a $10.8tn global market.
         Companies that don't know each other can now 
         <StyledLink type={Styled.PageLink} href='#'>
         trade internationally and access liquidity, with full trust
