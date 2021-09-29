@@ -53,7 +53,7 @@ const WhatItIs = () => (
         <StyledLink type={Styled.PageLink} href='#'>
             trade finance offered by banks
         </StyledLink>
-         can take weeks, requests are often rejected and is expensive.
+         can take weeks, requests are often rejected and transactions are expensive.
         </p>
       </div>
 
